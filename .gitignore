@@ -1,0 +1,28 @@
+# 文件忽略规则
+# 原始素材目录（体积巨大，且含他人作品，不纳入版本管理）
+tianya/
+repo/../tianya/
+
+# 解压中间产物
+extract/
+*.pdf
+*.doc
+*.rar
+*.zip
+*.7z
+*.chm
+
+# 提取出的正文（17MB，属他人作品原文）
+text/
+
+# Python
+__pycache__/
+*.pyc
+env/
+.venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
